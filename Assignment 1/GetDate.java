@@ -1,6 +1,7 @@
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.util.Date;
 
 public interface GetDate extends Remote {
-    String getTime() throws RemoteException;
+    Long getTime() throws RemoteException;
 }
